@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Iniciar Sesión</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row mt-5">
+            <div class="col-6 offset-3">
+                <h1>Inicia sesión</h1>
+            </div>
+        </div>
+        <div class="row align-items-center">
+            <div class="col-6 offset-3">
+                <div class="form-group">
+                    <label for="user_mail">Correo electrónico</label>
+                    <input type="email" class="form-control" id="user_mail" placeholder="ingrid@gmail.com">
+                </div>
+                <div class="form-group">
+                    <label for="user_password">Contraseña</label>
+                    <input type="password" class="form-control" id="user_password" placeholder="password">
+                </div>
+                <div class="d-flex justify-content-between">
+                    <button id="login_btn" class="btn btn-primary">Entrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./js/login.js"></script>
+</body>
+</html>
